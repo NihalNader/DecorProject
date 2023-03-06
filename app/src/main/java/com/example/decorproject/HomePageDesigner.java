@@ -13,7 +13,7 @@ public class HomePageDesigner extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page_designer);
-
+          int w = 10;
         text = findViewById(R.id.textView2);
     }
 }
