@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jamal2000/AndroidStudioProjects/DecorProject/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1745" />
+        <entry key="..\:/Users/Jamal2000/AndroidStudioProjects/DecorProject/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Jamal2000/AndroidStudioProjects/DecorProject/app/src/main/res/layout/activity_login_signup.xml" value="0.25" />
+        <entry key="..\:/Users/Jamal2000/AndroidStudioProjects/DecorProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Jamal2000/AndroidStudioProjects/DecorProject/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/Jamal2000/AndroidStudioProjects/DecorProject/app/src/main/res/layout/activity_splash_screen.xml" value="0.2359375" />
+        <entry key="..\:/Users/tsc/AndroidStudioProjects/decor/DecorProject-main/DecorProject-main/app/src/main/res/layout/activity_home_page_designer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/tsc/AndroidStudioProjects/decor/DecorProject-main/DecorProject-main/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/tsc/AndroidStudioProjects/decor/DecorProject-main/DecorProject-main/app/src/main/res/layout/activity_login_signup.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

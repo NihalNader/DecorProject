@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/imageView3_sign"
+        android:layout_width="181dp"
+        android:layout_height="111dp"
+        android:rotation="20"
+        app:srcCompat="@drawable/cube"
+        tools:layout_editor_absoluteX="-74dp"
+        tools:layout_editor_absoluteY="49dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/btnBack_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:rotation="180"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24"
+        tools:layout_editor_absoluteX="356dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="إنشاء حساب"
+        android:textSize="16sp"
+        android:textColor="@color/dark_purple"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="136dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/personName_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="أسم المستخدم"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="177dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/email_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="الإيميل"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <EditText
+        android:id="@+id/password_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/purple"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="إنشاء حساب"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <TextView
+        android:id="@+id/textView4_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="هل لديك حساب؟"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <Button
+        android:id="@+id/backToLogin_sign"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#0000"
+        android:text="سجل دخول"
+        android:textColor="@color/purple"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="أو"
+        android:textColor="#373737"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <ImageButton
+        android:id="@+id/google_sign"
+        android:layout_width="135dp"
+        android:layout_height="137dp"
+        android:background="#0000"
+        app:srcCompat="@drawable/google"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="490dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
